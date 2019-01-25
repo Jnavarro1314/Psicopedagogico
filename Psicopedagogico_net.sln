@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Psicopedagogico_net", "Psicopedagogico_net\Psicopedagogico_net.vbproj", "{D507A183-4F03-4FF6-B4C7-D39B44A99ADE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Datos", "Datos\Datos.vbproj", "{83EF7CEA-9C8A-4E0D-B276-1A0E8DDDB065}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Entidades", "Entidades\Entidades.vbproj", "{63608CD2-39E3-4DB4-A161-0218E62B8651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D507A183-4F03-4FF6-B4C7-D39B44A99ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D507A183-4F03-4FF6-B4C7-D39B44A99ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D507A183-4F03-4FF6-B4C7-D39B44A99ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D507A183-4F03-4FF6-B4C7-D39B44A99ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83EF7CEA-9C8A-4E0D-B276-1A0E8DDDB065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EF7CEA-9C8A-4E0D-B276-1A0E8DDDB065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EF7CEA-9C8A-4E0D-B276-1A0E8DDDB065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EF7CEA-9C8A-4E0D-B276-1A0E8DDDB065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63608CD2-39E3-4DB4-A161-0218E62B8651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63608CD2-39E3-4DB4-A161-0218E62B8651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63608CD2-39E3-4DB4-A161-0218E62B8651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63608CD2-39E3-4DB4-A161-0218E62B8651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

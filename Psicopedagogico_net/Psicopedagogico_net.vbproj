@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D507A183-4F03-4FF6-B4C7-D39B44A99ADE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Psicopedagogico_net.My.MyApplication</StartupObject>
+    <RootNamespace>Psicopedagogico_net</RootNamespace>
+    <AssemblyName>Psicopedagogico_net</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>ftp://waws-prod-sn1-035.ftp.azurewebsites.windows.net/site/wwwroot/Psicopedagogico/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>52</UpdateInterval>
+    <UpdateIntervalUnits>Weeks</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://publicaciones.azurewebsites.net/Psicopedagogico/</InstallUrl>
+    <UpdateUrl>http://publicaciones.azurewebsites.net/Psicopedagogico/</UpdateUrl>
+    <ProductName>Psicopedagogico</ProductName>
+    <PublisherName>Direccion de Desarrollo de Software</PublisherName>
+    <SuiteName>Psicopedagogico_net</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>Actualizacion.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.5.2.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Psicopedagogico_net.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Psicopedagogico_net.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8976D9DC8745024D782E66A22A5C5ACB97FC4DB4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Psicopedagogico_net_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>vidas.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="InfoSistema">
+      <HintPath>..\..\..\..\Proyectos\ASiS\ASiS\ASiS\bin\Debug\InfoSistema.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actualizar.Designer.vb">
+      <DependentUpon>Actualizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bienvenida.Designer.vb">
+      <DependentUpon>Bienvenida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Captura.Designer.vb">
+      <DependentUpon>Captura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Captura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carga-Descarga\Cargando.Designer.vb">
+      <DependentUpon>Cargando.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Carga-Descarga\Cargando.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carga-Descarga\Descargando.Designer.vb">
+      <DependentUpon>Descargando.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Carga-Descarga\Descargando.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas.Designer.vb">
+      <DependentUpon>Consultas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas_invitado.Designer.vb">
+      <DependentUpon>Consultas_invitado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas_invitado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_Grupos.Designer.vb">
+      <DependentUpon>Consulta_Grupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta_Grupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionarios\Deteccion Necesidades\Linea_Respuestas.Designer.vb">
+      <DependentUpon>Linea_Respuestas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionarios\Deteccion Necesidades\Linea_Respuestas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSets\DataSet_Consultas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Consultas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSets\DataSet_Consultas.vb">
+      <DependentUpon>DataSet_Consultas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSets\DsAlumno.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsAlumno.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSets\DsAlumno.vb">
+      <DependentUpon>DsAlumno.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSets\DsGrupos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsGrupos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSets\DsGrupos.vb">
+      <DependentUpon>DsGrupos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Error.Designer.vb">
+      <DependentUpon>Form_Error.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Error.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graficos.Designer.vb">
+      <DependentUpon>Graficos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Graficos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grupos.Designer.vb">
+      <DependentUpon>Grupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Inventario.Designer.vb">
+      <DependentUpon>Inventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Inventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramienta_Empleaos.Designer.vb">
+      <DependentUpon>Herramienta_Empleaos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Herramienta_Empleaos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Notificacion.Designer.vb">
+      <DependentUpon>Notificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Opciones_reporte.Designer.vb">
+      <DependentUpon>Opciones_reporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opciones_reporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planteles_DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Planteles_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Planteles_DataSet.vb">
+      <DependentUpon>Planteles_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroDeUsuarios.Designer.vb">
+      <DependentUpon>RegistroDeUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroDeUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_Asistencia.Designer.vb">
+      <DependentUpon>Registro_Asistencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_Asistencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\CRVisor.Designer.vb">
+      <DependentUpon>CRVisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\CRVisor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_Graficos_Barra.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Graficos_Barra.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_Grupos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Grupos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_InfoAlumno.vb">
+      <DependentUpon>rpt_InfoAlumno.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\rpt_Rectoria.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Rectoria.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_formato.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_formato.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_sintesis.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_sintesis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_Tamizaje.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Tamizaje.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_TamizajeGrafica.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_TamizajeGrafica.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sintesis.Designer.vb">
+      <DependentUpon>Sintesis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sintesis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tamizaje.Designer.vb">
+      <DependentUpon>Tamizaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tamizaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TamizajeGrafica.Designer.vb">
+      <DependentUpon>TamizajeGrafica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TamizajeGrafica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios.Designer.vb">
+      <DependentUpon>Usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Actualizar.resx">
+      <DependentUpon>Actualizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bienvenida.resx">
+      <DependentUpon>Bienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Captura.resx">
+      <DependentUpon>Captura.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carga-Descarga\Cargando.resx">
+      <DependentUpon>Cargando.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carga-Descarga\Descargando.resx">
+      <DependentUpon>Descargando.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas.resx">
+      <DependentUpon>Consultas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas_invitado.resx">
+      <DependentUpon>Consultas_invitado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta_Grupos.resx">
+      <DependentUpon>Consulta_Grupos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionarios\Deteccion Necesidades\Linea_Respuestas.resx">
+      <DependentUpon>Linea_Respuestas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Error.resx">
+      <DependentUpon>Form_Error.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graficos.resx">
+      <DependentUpon>Graficos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grupos.resx">
+      <DependentUpon>Grupos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\Inventario.resx">
+      <DependentUpon>Inventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramienta_Empleaos.resx">
+      <DependentUpon>Herramienta_Empleaos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notificacion.resx">
+      <DependentUpon>Notificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opciones_reporte.resx">
+      <DependentUpon>Opciones_reporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroDeUsuarios.resx">
+      <DependentUpon>RegistroDeUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Asistencia.resx">
+      <DependentUpon>Registro_Asistencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\CRVisor.resx">
+      <DependentUpon>CRVisor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_Graficos_Barra.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Graficos_Barra.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_Grupos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Grupos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_InfoAlumno.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_InfoAlumno.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_Rectoria.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Rectoria.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_formato.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_formato.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_sintesis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_sintesis.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_Tamizaje.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Tamizaje.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_TamizajeGrafica.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_TamizajeGrafica.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sintesis.resx">
+      <DependentUpon>Sintesis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tamizaje.resx">
+      <DependentUpon>Tamizaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TamizajeGrafica.resx">
+      <DependentUpon>TamizajeGrafica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DSets\DataSet_Consultas.xsc">
+      <DependentUpon>DataSet_Consultas.xsd</DependentUpon>
+    </None>
+    <None Include="DSets\DataSet_Consultas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Consultas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DSets\DataSet_Consultas.xss">
+      <DependentUpon>DataSet_Consultas.xsd</DependentUpon>
+    </None>
+    <None Include="DSets\DsAlumno.xsc">
+      <DependentUpon>DsAlumno.xsd</DependentUpon>
+    </None>
+    <None Include="DSets\DsAlumno.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsAlumno.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DSets\DsAlumno.xss">
+      <DependentUpon>DsAlumno.xsd</DependentUpon>
+    </None>
+    <None Include="DSets\DsGrupos.xsc">
+      <DependentUpon>DsGrupos.xsd</DependentUpon>
+    </None>
+    <None Include="DSets\DsGrupos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsGrupos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DSets\DsGrupos.xss">
+      <DependentUpon>DsGrupos.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Planteles_DataSet.xsc">
+      <DependentUpon>Planteles_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Planteles_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Planteles_DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Planteles_DataSet.xss">
+      <DependentUpon>Planteles_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Psicopedagogico_net_ClaveTemporal.pfx" />
+    <None Include="Resources\user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llves.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vidas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_task.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.vbproj">
+      <Project>{83ef7cea-9c8a-4e0d-b276-1a0e8dddb065}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.vbproj">
+      <Project>{63608cd2-39e3-4db4-a161-0218e62b8651}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %28161%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81 png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PImprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ico_up_down.ico" />
+    <None Include="Resources\1 %28190%29 png.png" />
+    <None Include="Resources\back.ico" />
+    <None Include="Resources\refresh.ico" />
+    <None Include="Resources\pictures.ico" />
+    <None Include="Resources\1 %28194.1%29.png" />
+    <None Include="Resources\logo_psicop.png" />
+    <None Include="Resources\1 %28163%29.ico" />
+    <None Include="Resources\Docentes_.bmp" />
+    <Content Include="Resources\xx.png" />
+    <None Include="Resources\xx1.png" />
+    <Content Include="vidas.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BD Atencion\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
