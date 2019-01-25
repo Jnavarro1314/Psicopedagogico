@@ -5,10 +5,10 @@
     <Setting Name="DIRECTORIOConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=educem.cloudapp.net;Initial Catalog=Directorio;User ID=Localserver;Password=203203463..&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Data Source=educem.cloudapp.net;Initial Catalog=Directorio;User ID=server;Password=T1.3Ducem.2019&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=educem.cloudapp.net;Initial Catalog=Directorio;User ID=Localserver;Password=203203463..</Value>
+      <Value Profile="(Default)">Data Source=educem.cloudapp.net;Initial Catalog=Directorio;User ID=server;Password=T1.3Ducem.2019</Value>
     </Setting>
     <Setting Name="SedesConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
@@ -21,10 +21,10 @@
     <Setting Name="PsicopedagogicoConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=educem.cloudapp.net;Initial Catalog=Matriculado;User ID=Localserver;Password=203203463..&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Data Source=educem.cloudapp.net;Initial Catalog=Matriculado;User ID=server;Password=T1.3Ducem.2019&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=educem.cloudapp.net;Initial Catalog=Matriculado;User ID=Localserver;Password=203203463..</Value>
+      <Value Profile="(Default)">Data Source=educem.cloudapp.net;Initial Catalog=Matriculado;User ID=server;Password=T1.3Ducem.2019</Value>
     </Setting>
   </Settings>
 </SettingsFile>

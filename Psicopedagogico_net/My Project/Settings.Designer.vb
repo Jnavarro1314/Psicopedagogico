@@ -15,7 +15,7 @@ Option Explicit On
 Namespace My
     
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0"),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.8.0.0"),  _
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
@@ -57,8 +57,8 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=educem.cloudapp.net;Initial Catalog=Directorio;User ID=Localserver;Pa"& _ 
-            "ssword=203203463..")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=educem.cloudapp.net;Initial Catalog=Directorio;User ID=server;Passwor"& _ 
+            "d=T1.3Ducem.2019")>  _
         Public ReadOnly Property DIRECTORIOConnectionString() As String
             Get
                 Return CType(Me("DIRECTORIOConnectionString"),String)
@@ -79,8 +79,8 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=educem.cloudapp.net;Initial Catalog=Matriculado;User ID=Localserver;P"& _ 
-            "assword=203203463..")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=educem.cloudapp.net;Initial Catalog=Matriculado;User ID=server;Passwo"& _ 
+            "rd=T1.3Ducem.2019")>  _
         Public ReadOnly Property PsicopedagogicoConnectionString() As String
             Get
                 Return CType(Me("PsicopedagogicoConnectionString"),String)

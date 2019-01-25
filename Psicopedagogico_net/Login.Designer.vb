@@ -140,9 +140,9 @@ Partial Class Acceso
         Me.lbl_version.ForeColor = System.Drawing.Color.White
         Me.lbl_version.Location = New System.Drawing.Point(271, 297)
         Me.lbl_version.Name = "lbl_version"
-        Me.lbl_version.Size = New System.Drawing.Size(50, 19)
+        Me.lbl_version.Size = New System.Drawing.Size(62, 19)
         Me.lbl_version.TabIndex = 80
-        Me.lbl_version.Text = "V2.5.2"
+        Me.lbl_version.Text = "V2.5.3.1"
         '
         'Acceso
         '
